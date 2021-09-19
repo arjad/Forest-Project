@@ -1,0 +1,48 @@
+.contact-form{
+    height:400px;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border:1px solid lightgrey;
+    margin: auto;
+}
+.button {
+    height:50px;
+    width: 190px; /* set a width so it doesnt change upon hover */
+     border: 0px solid #004B84;
+     background: gold;
+     padding: 3px 21px;
+     -webkit-border-radius: 16px;
+     -moz-border-radius: 16px;
+     border-radius: 16px;
+     color: #ffffff;
+     font-size: 18px;
+
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     vertical-align: middle;
+     letter-spacing: 2px;
+  }
+  
+  .button:focus span {
+    display:none
+  }
+  
+  .button:focus:before {
+    content:"Message Sent";
+  }
+  
+  .button:hover span {
+    display:none
+  }
+  
+  .button:hover:before {
+    content:"Click to Send";
+  }
+  .button:hover {
+    background-color: rgb(218, 188, 21);
+    font-weight: bold;
+  }
+  
